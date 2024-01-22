@@ -25,6 +25,12 @@ $('document').ready(function(){
         $('#rave_button').toggle(2000)
     })
 
+    //Google Form Section
+    $('#save-a-spot-button').on("click",function(){
+      $('#google-form-p').toggle(2000)
+      $('#google-form-button').toggle(2000)
+  })
+
     //Next for us drop down
     $('#next-for-us-button').on("click",function(){
         $('#next-for-us-text').toggle(2000);
