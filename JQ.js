@@ -22,6 +22,7 @@ $('document').ready(function(){
     //location drop down
     $('#show-me-button').on("click",function(){
         $('#location-text').toggle(2000)
+        $('#rave_button').toggle(2000)
     })
 
     //Next for us drop down
