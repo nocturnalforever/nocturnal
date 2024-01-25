@@ -69,12 +69,12 @@ button{
     bottom: -5px;
     width: 80px;
     height: 3px;
-    background-color: #ff9800;
+    background-color: crimson;
 
 }
 
 .btn-01{
-    background-color: #ff9800;
+    /* background-color: #ff9800; */
     color: white;
     border: 2px solid transparent ;
     padding: 10px 35px ;
@@ -130,7 +130,7 @@ button{
 
 /* ---------------------------------Header----------------------- */
 .header{
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -420,23 +420,20 @@ button{
 
 .button-main{
     /* border: 2px solid crimson; */
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-bottom: 0 transparent;
-    border-top: 0 transparent;
-    background-color: transparent;
+    border: 2px solid white;
+    background-color: gray;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     padding-left: 5em;
     padding-right: 5em;
     margin-top: 2em;
     border-radius: 4em;
-    border-style: solid;
-
+    text-decoration: none;  
+    color: black;  
 }
 
 .button-main:hover{
-    background-color: black;
+    background-color: darkgray;
     animation-delay: 0.5s;
     color: crimson;
 }
@@ -511,14 +508,16 @@ button{
     background-image: url('../Images/MvO2n8Gbrj-removebg-preview.png');
     background-size: cover;
     background-position: center;
+    cursor: pointer;
 }
+
 
 /* .value-section .value-container .values{
     display: flex;
 } */
 
 .location-text{
-    font-family: monospace;
+    font-family: 'Engravers MT', monospace;
     color: white;
     font-weight: lighter;
     text-transform: lowercase;
@@ -588,6 +587,7 @@ button{
     padding: 0.2em;
     margin-top: 2em;
     border-radius: 6em;
+    text-decoration: none;
 }
 
 .value-section .value-container p{
