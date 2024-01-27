@@ -287,7 +287,7 @@ button{
     z-index: -1 ;
 }
 
-.home-section .shape-01{
+.shape-01{
     position: absolute;
     height:30px;
     width: 30px;
@@ -295,6 +295,9 @@ button{
     right: 5%;
     top: 20%;
     animation: ani01 5s linear infinite;
+    background-color: crimson;
+    text-align: center;
+    color: black;
 }
 
 .home-section .row{
@@ -421,7 +424,7 @@ button{
 .button-main{
     /* border: 2px solid crimson; */
     border: 2px solid white;
-    background-color: gray;
+    background-color: white;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     padding-left: 5em;
@@ -435,7 +438,7 @@ button{
 .button-main:hover{
     background-color: darkgray;
     animation-delay: 0.5s;
-    color: crimson;
+    transition: all 0.5s ease;
 }
 
 /* -------------------------------------------------Password input------------------------------------------------------------------- */
@@ -490,6 +493,28 @@ button{
 }
 
 /* -----------------------------------------------------INFO HTML--------------------------------------------------- */
+
+.about-article{
+    text-align: center;
+    margin-top: 8em;
+    background-color: #020002;
+}
+
+.about-article .about-article-div{
+    margin: 4em;
+    background-color: white;
+    border-radius: 90em;
+}
+
+.about-article .about-article-div .about-article-text{
+    font-family: 'Engravers MT';
+    color: black;
+    padding: 5em;
+}
+
+.about-article .about-article-div .about-article-text .about-article-text-underline{
+    border: 2px solid black;
+}
 
 .value-section 
 {
@@ -608,15 +633,22 @@ button{
     text-align: center;
 }
 
-.rave_button{
-    background-color: grey;
+.info_button{
+    background-color: white;
     border-radius: 6em;
+    padding: 0.5em;
     border: 2px solid white;
 }
 
-.rave_button:hover{
-    background-color: white;
+.info_button:hover{
+    background-color: lightgray;
     transition: all 0.5s ease;
+}
+
+.audio-scream{
+    background-color: transparent;
+    width: 100px;
+    color: crimson;
 }
 
 /* ---------------------------------------------------Footer--------------------------------------------------- */

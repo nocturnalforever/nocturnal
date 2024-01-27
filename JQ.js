@@ -26,6 +26,7 @@ $('document').ready(function(){
         $('#location-h3').toggle(2000)
         $('#location-h4').toggle(2000)
         $('#location-end').toggle(2000)
+        $('#location-button').toggle(2000)
     })
 
     $('#eye-1').on('click',function(){
@@ -34,6 +35,7 @@ $('document').ready(function(){
         $('#location-h3').toggle(2000)
         $('#location-h4').toggle(2000)
         $('#location-end').toggle(2000)
+        $('#location-button').toggle(2000)
     })
 
     //Google Form Section
