@@ -291,11 +291,29 @@ button{
     position: absolute;
     height:30px;
     width: 30px;
-    border: 2px solid crimson;
+    /* border: 2px solid crimson; */
     right: 5%;
     top: 20%;
     animation: ani01 5s linear infinite;
-    background-color: crimson;
+    /* background-color: crimson; */
+    text-align: center;
+    font-size: large;
+    color: hotpink;
+    font-family: 'Engravers MT',
+        'Times New Roman',
+        'Arial',
+        sans-serif;
+}
+
+.shape-02 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /* border: 2px solid crimson; */
+    right: 7%;
+    top: 100%;
+    animation: ani01 10s linear infinite;
+    /* background-color: crimson; */
     text-align: center;
     color: black;
     font-family: 'Engravers MT',
