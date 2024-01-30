@@ -5,6 +5,11 @@ $('document').ready(function(){
     // $('#button_event').click(function(){
     //     $('#nocturnal_description').toggle(3000);
     // })
+/*-------------------------------------------------------Index page-----------------------------------------------------------*/
+
+    $('#scroll-button').on('click',function(){
+        $('#index-page').slideDown(2000)
+    })
 
     $('#find_out_more_button').click(function(){
         $('#event_description').show(2000);  
