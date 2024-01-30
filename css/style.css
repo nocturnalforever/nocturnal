@@ -575,7 +575,7 @@ button{
 } */
 
 .location-text{
-    font-family: 'Engravers MT', monospace;
+    font-family: 'Engravers MT', 'Times New Roman', sans-serif, monospace;
     color: white;
     font-weight: lighter;
     text-transform: lowercase;
@@ -739,6 +739,10 @@ button{
 
     .home-section .container .home-content img{
         margin: 0em;
+    }
+
+    .home-section .container .row .home-content h5{
+        font-size: 14px;
     }
 
     .password-input-section{
