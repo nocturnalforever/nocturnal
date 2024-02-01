@@ -791,8 +791,8 @@ button{
 
     .home-badge {
         padding-top: 5px;
-        width: 30px;
-        height: 30px;
+        width: 0px;
+        height: 0px;
     }
 
     .header{
