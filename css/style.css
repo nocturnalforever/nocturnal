@@ -675,13 +675,12 @@ button{
     justify-content: center;
     text-align: center;
     font-family: 'Old English Text MT',
-        'Chiller',
         'Engravers MT',
         'Times New Roman',
         sans-serif ;
     color: white;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .button:hover{
@@ -740,9 +739,10 @@ button{
     transition: all 0.5s ease;
 }
 
-.audio-scream{
-    background-color: transparent;
-    width: 100px;
+
+.location-background{
+    background-image: url('../Images/dark_purple_clouds_with_dark_purple_stars_by_xrebelyellx_dgbddij-fullview.jpg');
+
 }
 
 /* ---------------------------------------------------Footer--------------------------------------------------- */
