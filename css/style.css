@@ -252,7 +252,7 @@ button{
 /* -------------------------------------Home section------------------------- */
 
 .index-page{
-    background-image: url('../Images/dark_purple_clouds_with_dark_purple_stars_by_xrebelyellx_dgbddij-fullview.jpg');
+    background-image: url('../Images/lightning-background.jpg');
     background-size: cover;
 }
 
@@ -417,21 +417,35 @@ button{
     border-radius: 90em;
     border: 2px grey solid;
     /* background-color: white; */
-    /* background-image: url('../Images/Y2K\ img.jpg'); */
+    background-image: url('../Images/Y2K\ img.jpg');
     background-position: center;
     background-size: 110%;
     margin-top: 2em;
     margin-bottom: 2em;
-    /* color: white; */
+    color: white;
     font-family: 'Engravers MT','Times New Roman', sans-serif;
     text-align: center;
+}
+
+.about-section .container:before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    /* left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; */
+    background-color: black;
+    opacity: 0.9;
+    /* z-index: -1; */
+    border-radius: 100em;
 }
 
 .about-section .container .about-content{
     /* background-color: #020002; */
     border-radius: 80em;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .about-section .container .about-content .section-title h1{
@@ -444,6 +458,7 @@ button{
     text-align: center;
     align-content: center;
     font-weight: lighter;
+    border-radius: 8em;
 }
 
 .about-us-desc{
