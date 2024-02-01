@@ -252,7 +252,7 @@ button{
 /* -------------------------------------Home section------------------------- */
 
 .index-page{
-    background-image: url('../Images/lightning-background.jpg');
+    background-image: url('../Images/lightning\ clouds.jpg');
     background-size: cover;
 }
 
@@ -806,11 +806,11 @@ button{
         font-size: 12px;
     }
 
-    .index-page {
-        background-image: url('../Images/lightning\ clouds.jpg');
+    /* .index-page {
+        background-image: url('../Images/lightning\ clouds\ darker.png');
         background-size: cover;
         background-position: center;
-    }
+    } */
 
     .password-input-section{
         margin-top: 7em;
