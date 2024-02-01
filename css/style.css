@@ -232,12 +232,13 @@ button{
 
 .header .nav ul li a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: white;
     padding: 25px 0;
     display: block;
     transition: all 0.5s ease;
+    font-family: 'Old English Text MT','Chiller', 'Engravers MT', 'Times New Roman', sans-serif;
 }
 
 .header .fixed .nav ul li a{
