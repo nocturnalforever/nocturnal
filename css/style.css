@@ -809,7 +809,7 @@ button{
     .index-page {
         background-image: url('../Images/lightning\ clouds.jpg');
         background-size: cover;
-        /* background-position: center; */
+        background-position: center;
     }
 
     .password-input-section{
