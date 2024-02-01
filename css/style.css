@@ -427,20 +427,6 @@ button{
     text-align: center;
 }
 
-.about-section .container:before {
-    content: '';
-    position: absolute;
-    box-sizing: border-box;
-    /* left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0; */
-    background-color: black;
-    opacity: 0.9;
-    /* z-index: -1; */
-    border-radius: 100em;
-}
-
 .about-section .container .about-content{
     /* background-color: #020002; */
     border-radius: 80em;
@@ -459,7 +445,22 @@ button{
     align-content: center;
     font-weight: lighter;
     border-radius: 8em;
+    color: white;
 }
+
+/* .about-section .container:before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.4;
+    /* z-index: -1; */
+    /* border-radius: 100em;
+}  */
 
 .about-us-desc{
     font-family: 'Times New Roman', Arial, sans-serif;
