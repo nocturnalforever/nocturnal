@@ -807,9 +807,9 @@ button{
     }
 
     .index-page {
-        background-image: url('../Images/lightning\ immmm22222.jpg');
-        background-size: 100%;
-        background-position: center;
+        background-image: url('../Images/dark_purple_clouds_with_dark_purple_stars_by_xrebelyellx_dgbddij-fullview.jpg');
+        background-size: cover;
+        /* background-position: center; */
     }
 
     .password-input-section{
