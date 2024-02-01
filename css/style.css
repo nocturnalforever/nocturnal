@@ -888,6 +888,7 @@ button{
         
                 .button {
                     border: 2px solid grey;
+                    font-size: 14px;
                 }
         
                 .button:hover {
@@ -957,6 +958,10 @@ button{
     .home-section .container .home-content img{
         width: 200px;
         height: 150px;
+    }
+
+    .button{
+        font-size: 14px;
     }
 }
 
@@ -1030,6 +1035,7 @@ button{
 
     .button{
         border: 2px solid grey;
+        font-size: 14px;
     }
 
     .button:hover{
@@ -1065,6 +1071,7 @@ button{
 
     .button{
         border: 2px solid grey;
+        font-size: 16px;
     }
     .button:hover{
         border: 2px solid white;
