@@ -415,29 +415,16 @@ button{
     margin-left: 4em;
     margin-right: 4em;
     border-radius: 90em;
+    border: 2px grey solid;
     /* background-color: white; */
-    background-image: url('../Images/dark_purple_clouds_with_dark_purple_stars_by_xrebelyellx_dgbddij-fullview.jpg');
+    /* background-image: url('../Images/Y2K\ img.jpg'); */
     background-position: center;
-    background-size: 105%;
+    background-size: 110%;
     margin-top: 2em;
     margin-bottom: 2em;
     /* color: white; */
     font-family: 'Engravers MT','Times New Roman', sans-serif;
     text-align: center;
-}
-
-.about-section .container:before {
-    content: '';
-    position: absolute;
-    box-sizing: border-box;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    opacity: 0.7;
-    z-index: -1;
-    border-radius: 100em;
 }
 
 .about-section .container .about-content{
@@ -797,6 +784,10 @@ button{
         margin-left: 0em;
         margin-right: 0em;
         border: 2px groove gray;
+    }
+
+    .about-section .container .about-content .section-title h1{
+        font-size: 12px;
     }
 
     .password-input-section{
