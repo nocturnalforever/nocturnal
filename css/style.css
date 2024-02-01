@@ -666,20 +666,22 @@ button{
 }
 
 .button{
-    /* border-left: 2px solid white;
-    border-right: 2px solid white; */
     border: 2px groove grey;
     border-radius: 6em;
     /* margin-top: 10em; */
     /* margin-left: 30em;
     margin-right: 30em; */
-
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    font-family: 'Old English Text MT',
+        'Chiller',
+        'Engravers MT',
+        'Times New Roman',
+        sans-serif ;
     color: white;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .button:hover{
