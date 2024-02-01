@@ -806,6 +806,13 @@ button{
         font-size: 12px;
     }
 
+    .index-page {
+        background-image: url('../Images/lightning-background-mobile.png');
+        background-size: cover;
+        background-position: center
+        ;
+    }
+
     .password-input-section{
         margin-top: 7em;
         /* margin-bottom: 20em; */
