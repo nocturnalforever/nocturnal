@@ -243,7 +243,10 @@ button{
     padding: 25px 0;
     display: block;
     transition: all 0.5s ease;
-    font-family: 'Old English Text MT','Chiller', 'Engravers MT', 'Times New Roman', sans-serif;
+    font-family: 'Old English Text MT', 
+    'Engravers MT', 
+    'Times New Roman', 
+    sans-serif;
 }
 
 .header .fixed .nav ul li a{
@@ -387,6 +390,30 @@ button{
 
 }
 
+.countdown{
+    border-top: 2px groove lightgrey;
+    border-bottom: 2px groove lightgrey;
+    border-radius: 8em;
+    margin: 1em 9em;
+    text-align: center;
+}
+
+.countdown-date{
+    color: grey;
+    font-family:
+        'Engravers MT',
+        'Times New Roman',
+        sans-serif;
+    margin-top: 2em 0;
+    font-size: 13px;
+}
+
+#demo{
+    text-align: center;
+    padding: 0.5em 0;
+    color: crimson;
+}
+
 /* --------------------------------------------- Snake Game---------------------------------------------*/
 .game-display-div{
     margin-top: 10em;
@@ -405,81 +432,12 @@ button{
 }
 /* ---------------------------------------------About Section------------------------------------------- */
 
-.about-section{
-    margin-top: 2em;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    z-index: 1;
-    padding:0;
-    /* min-height: 100vh; */
-    margin-bottom: 0;
-    /* background-color: #faf9f6; */
-    border-radius: 6em;
-}
-
-.about-section .container{
-    margin-top: 2em;
-    margin-left: 4em;
-    margin-right: 4em;
-    border-radius: 90em;
-    border: 2px grey solid;
-    /* background-color: white; */
-    background-image: url('../Images/Y2K\ img.jpg');
-    background-position: center;
-    background-size: 110%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    color: white;
-    font-family: 'Engravers MT','Times New Roman', sans-serif;
-    text-align: center;
-}
-
-.about-section .container .about-content{
-    /* background-color: #020002; */
-    border-radius: 80em;
-    color: white;
-    font-weight: bolder;
-}
-
-.about-section .container .about-content .section-title h1{
-    font-family: 'Engravers MT','Times New Roman', sans-serif ;
-    font-size: large;
-    color: white;
-}
-
-.about-section .container .about-content p{
-    text-align: center;
-    align-content: center;
-    font-weight: lighter;
-    border-radius: 8em;
-    color: white;
-}
-
-/* .about-section .container:before {
-    content: '';
-    position: absolute;
-    box-sizing: border-box;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    opacity: 0.4;
-    /* z-index: -1; */
-    /* border-radius: 100em;
-}  */
-
-.about-us-desc{
-    font-family: 'Times New Roman', Arial, sans-serif;
-}
 
 .button-main-field{
     margin-top: 2em;
 }
 
 .button-main{
-    /* border: 2px solid crimson; */
     border: 2px solid white;
     background-color: white;
     padding-top: 0.7em;
@@ -498,20 +456,29 @@ button{
     transition: all 0.5s ease;
 }
 
-/* -------------------------------------------------Password input------------------------------------------------------------------- */
+.about-block{
+    text-align: center;
+}
 
-/* .password_input_top{
-    padding-bottom: 15em;
-} */
+.about-block .about-block-container{
+    padding: 2em 0;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.about-block .about-block-container .about-container-content{
+    text-align: center;
+}
+
+/* -------------------------------------------------Password input------------------------------------------------------------------- */
 
 .password-input-section{
     align-items: center;
     align-items: center;
     text-align: center;
-    /* padding-top: 15em; */
     margin-top: 15em;
     margin-bottom: 10em;
-    /* background-image: url('/Images/STAR-SKY-BACKGROUND.png'); */
     background-color: #020002;
 }
 
@@ -561,11 +528,8 @@ button{
     position: absolute;
     height: 30px;
     width: 30px;
-    /* border: 2px solid crimson; */
      right: 7%;
-    /* top: 100%; */
     animation: ani01 10s linear infinite;
-    /* background-color: crimson; */
     text-align: center;
     color: black;
     font-family: 'Engravers MT',
@@ -584,8 +548,6 @@ button{
     margin-top: 0.5em;
     background-image: url('../Images/Y2K_img-removebg-preview.png');
     background-position: center;
-    /* border-radius: 90em; */
-    /* opacity: 80%; */
     padding: 0.5em;
     background-position:center;
     background-size: cover;
@@ -614,10 +576,6 @@ button{
 }
 
 .value-container{
-    /* margin-left: 10em;
-    margin-right: 10em; */
-    /* border: 2px solid white; */
-    /* background-color: white; */
     padding: 9em;
     display: inline-block;
     background-image: url('../Images/MvO2n8Gbrj-removebg-preview.png');
@@ -626,24 +584,11 @@ button{
     cursor: pointer;
 }
 
-
-/* .value-section .value-container .values{
-    display: flex;
-} */
-
 .location-text{
     font-family: 'Engravers MT', 'Times New Roman', sans-serif, monospace;
     color: white;
     font-weight: lighter;
     text-transform: lowercase;
-    /* border-right: 5px solid;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: 
-        typing 2s,
-        cursor .4s step-end infinite alternate;
-    animation-delay: 2s; */
 }
 
 /* Cursor blinking */
@@ -661,16 +606,12 @@ button{
 .button-div{
     margin-top: 8em;
     margin-bottom: 2em;
-    /* padding-left: 30em;
-    padding-right: 30em; */
+
 }
 
 .button{
     border: 2px groove grey;
     border-radius: 6em;
-    /* margin-top: 10em; */
-    /* margin-left: 30em;
-    margin-right: 30em; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -782,12 +723,6 @@ button{
     margin: 20em 0;
 }
 
-/* @media screen and (width < 376px) {
-    .home-section .container .home-content img{
-        margin: 0em;
-        margin-left: -2em;
-    }
-} */
 
 @media screen and (max-width: 290px){
 
@@ -828,18 +763,32 @@ button{
             height: 100px;
         }
 
-        .about-section .container {
-            border-radius: 10em;
-            margin-left: 0em;
-            margin-right: 0em;
-            border: 2px groove gray;
-       }
-        
-        .about-section .container .about-content .row .section-title h1{
-            font-size: 7px;
+        .countdown {
+            border-top: 2px groove lightgrey;
+            border-bottom: 2px groove lightgrey;
+            border-radius: 8em;
+            margin: 1em 0em;
+            text-align: center;
         }
 
-        .about-section .container .about-content{
+        .countdown-date {
+            color: grey;
+            font-family:
+                'Engravers MT',
+                'Times New Roman',
+                sans-serif;
+            margin-top: 2em 0;
+            font-size: 12px;
+        }
+
+        #demo {
+            text-align: center;
+            padding: 0.5em 0;
+            color: crimson;
+        }
+
+        .about-block .about-block-container .about-container-content {
+            text-align: center;
             font-size: 10px;
         }
 
@@ -886,19 +835,19 @@ button{
             } */
         
         
-                .button {
-                    border: 2px solid grey;
-                    font-size: 14px;
-                }
-        
-                .button:hover {
-                    border: 2px solid white;
-                }
-        
-                .about-article .about-article-div {
-                    background-size: 40em;
-                    border-radius: 20em;
-                }
+        .button {
+            border: 2px solid grey;
+            font-size: 14px;
+        }
+
+        .button:hover {
+            border: 2px solid white;
+        }
+
+        .about-article .about-article-div {
+            background-size: 40em;
+            border-radius: 20em;
+        }
 
         .about-article{
             margin-top: 15em;
@@ -960,6 +909,35 @@ button{
         height: 150px;
     }
 
+    .countdown {
+        border-top: 2px groove lightgrey;
+        border-bottom: 2px groove lightgrey;
+        border-radius: 8em;
+        margin: 1em 1em;
+        text-align: center;
+    }
+
+    .countdown-date {
+        color: grey;
+        font-family:
+            'Engravers MT',
+            'Times New Roman',
+            sans-serif;
+        margin-top: 2em 0;
+        font-size: 12px;
+    }
+
+    #demo {
+        text-align: center;
+        padding: 0.5em 0;
+        color: crimson;
+        font-size: 12px;
+    }
+
+    .about-block .about-block-container .about-container-content {
+        font-size: 11px;
+    }
+
     .button{
         font-size: 14px;
     }
@@ -986,14 +964,32 @@ button{
         font-size: 14px;
     }
 
-    .about-section .container{
-        border-radius: 10em;
-        margin-left: 0em;
-        margin-right: 0em;
-        border: 2px groove gray;
+    .countdown {
+        border-top: 2px groove lightgrey;
+        border-bottom: 2px groove lightgrey;
+        border-radius: 8em;
+        margin: 1em 2em;
+        text-align: center;
     }
 
-    .about-section .container .about-content .section-title h1{
+    .countdown-date {
+        color: grey;
+        font-family:
+            'Engravers MT',
+            'Times New Roman',
+            sans-serif;
+        margin-top: 2em 0;
+        font-size: 12px;
+    }
+
+    #demo {
+        text-align: center;
+        padding: 0.5em 0;
+        color: crimson;
+        font-size: 12px;
+    }
+
+    .about-block .about-block-container .about-container-content {
         font-size: 12px;
     }
 
