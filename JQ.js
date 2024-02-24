@@ -101,25 +101,8 @@ $('document').ready(function(){
        
     if (password == 'SHOWMETHERAVE') {
         window.open('info.html', '_parent');
-    } else if (password == 'Showmetherave') {
-        window.open('info.html', '_parent');
-    } else if (password == 'showmetherave') {
-        window.open('info.html', '_parent');
-    } else if (password == '1234') {
-        window.open('info.html', '_parent');
-    } else if (password == '12345') {
-        window.open('info.html', '_parent');
-    } else if (password == '0000') {
-        window.open('info.html', '_parent');
-    } else if (password == 'forever') {
-        window.open('info.html', '_parent');
-    } else if (password == 'password') {
-        window.open('info.html', '_parent');
-    } else if (password == 'Password') {
-        window.open('info.html', '_parent');
     } else{
         alert('You almost had it! Try Again');
-        
         let alert = document.getElementById('passwordAlert');
         alert.hidden = false;
     }
