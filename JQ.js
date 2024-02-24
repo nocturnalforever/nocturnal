@@ -100,7 +100,7 @@ $('document').ready(function(){
     let password = document.getElementById('password').value;
     let alert = document.getElementById('passwordAlert');
 
-    if (password == 'SHOWMETHERAVE') {
+    if (password == 'SHOWMETHERAVE'|| '1234' || '12345' || '123456' || 'Password' || 'password' || '0000' || 'Showmetherave' || 'Forever' || 'forever' || '80085') {
         window.open('info.html', '_parent');
     } else {
         alert('You almost had it! Try Again');
