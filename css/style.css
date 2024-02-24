@@ -627,9 +627,10 @@ button{
         'Engravers MT',
         'Times New Roman',
         sans-serif ;
-    color: white;
+    color: black;
     cursor: pointer;
     font-size: 18px;
+    background: white;
 }
 
 .button:hover{
