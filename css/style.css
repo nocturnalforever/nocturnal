@@ -473,6 +473,14 @@ button{
 
 /* -------------------------------------------------Password input------------------------------------------------------------------- */
 
+.alert{
+    margin-bottom: 1em;
+    color: crimson;
+    font-family: 'Engravers MT',
+                'Times New Roman',
+                sans-serif;
+}
+
 .password-input-section{
     align-items: center;
     align-items: center;
