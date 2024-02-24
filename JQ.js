@@ -98,12 +98,12 @@ $('document').ready(function(){
    $("#input-btn").on("click", function(){
 
     let password = document.getElementById('password').value;
+    let alert = document.getElementById('passwordAlert');
        
     if (password == 'SHOWMETHERAVE') {
         window.open('info.html', '_parent');
     } else{
         alert('You almost had it! Try Again');
-        let alert = document.getElementById('passwordAlert');
         alert.hidden = false;
     }
    })
