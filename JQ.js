@@ -118,7 +118,7 @@ $('document').ready(function(){
         window.open('info.html', '_parent');
     } else if (password == 'Password') {
         window.open('info.html', '_parent');
-    } else{
+    } else if (password != 'SHOWMETHERAVE'){
         alert('You almost had it! Try Again');
         alert.hidden = false;
     }
