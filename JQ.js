@@ -100,9 +100,25 @@ $('document').ready(function(){
     let password = document.getElementById('password').value;
     let alert = document.getElementById('passwordAlert');
 
-    if (password == 'SHOWMETHERAVE'|| '1234' || '12345' || '123456' || 'Password' || 'password' || '0000' || 'Showmetherave' || 'Forever' || 'forever' || '80085') {
+    if (password == 'SHOWMETHERAVE') {
         window.open('info.html', '_parent');
-    } else {
+    } else if (password == 'Showmetherave') {
+        window.open('info.html', '_parent');
+    } else if (password == 'showmetherave') {
+        window.open('info.html', '_parent');
+    } else if (password == '1234') {
+        window.open('info.html', '_parent');
+    } else if (password == '12345') {
+        window.open('info.html', '_parent');
+    } else if (password == '0000') {
+        window.open('info.html', '_parent');
+    } else if (password == 'forever') {
+        window.open('info.html', '_parent');
+    } else if (password == 'password') {
+        window.open('info.html', '_parent');
+    } else if (password == 'Password') {
+        window.open('info.html', '_parent');
+    } else{
         alert('You almost had it! Try Again');
         alert.hidden = false;
     }
