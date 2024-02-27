@@ -93,7 +93,7 @@
 
     <!--Save a spot section  -->
     <div class="button-div">
-        <div class="button" id="save-a-spot-button">Help us save you a spot?</div>
+        <div class="button" id="save-a-spot-button">Click here to help us save you a spot?</div>
     </div>
     <div class="value-section">
         <div class="value-container" id="eye-2">
@@ -109,7 +109,7 @@
     <!-- Next for us section -->
     <div>
         <div class="button-div">
-            <div class="button" id="next-for-us-button">2024</div>
+            <div class="button" id="next-for-us-button">Click here for 2024</div>
         </div>
         <div class="value-section">
             <div class="value-container" id="eye-3">
@@ -126,7 +126,7 @@
     
     <!-- Spotify section -->
     <div class="button-div">
-        <div class="button" id="spotify-button">Spotify</div>
+        <div class="button" id="spotify-button">Click here to see our Spotify playlist for you</div>
     </div>
     <div class="value-section">
         <div class="value-container" id="eye-4">
@@ -142,7 +142,7 @@
     
     <!-- shop section -->
     <div class="button-div">
-        <div class="button" id="shop-button">Shop</div>
+        <div class="button" id="shop-button">Click here to see the Black Market</div>
     </div>
     <div class="value-section">
         <div class="value-container" id="eye-5">
@@ -156,7 +156,7 @@
     
     <!-- Social Media section -->
     <div class="button-div">
-        <div class="button" id="socials-button">Socials</div>
+        <div class="button" id="socials-button">Click here to find our socials</div>
     </div>
     <div class="value-section">
         <div class="value-container" id="eye-6">
