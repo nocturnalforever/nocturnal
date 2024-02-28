@@ -754,6 +754,7 @@ button{
             margin-left: 4em;
             margin-right: 4em;
             background-image: url('../Images/glowing_body.gif');
+            background-size: cover;
             padding-bottom: 5em;
         }
     
@@ -900,6 +901,7 @@ button{
         margin-left: 4em;
         margin-right: 4em;
         background-image: url('../Images/glowing_body.gif');
+        background-size: cover;
         padding-bottom: 5em;
     }
 
@@ -962,6 +964,7 @@ button{
         margin-left: 4em;
         margin-right: 4em;
         background-image: url('../Images/glowing_body.gif');
+        background-size: cover;
         padding-bottom: 5em;
     }
 
