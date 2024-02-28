@@ -62,13 +62,16 @@
     <!-- HOME SECTION ENDS -->
     <script type='text/javascript'>
         (function(){
-            var words = ['NOCTURNAL FOREVER', 'SHOWMETHERAVE','Ночь никогда не заканчивается' 'APRIL 6'];
+            var words = ['NOCTURNAL FOREVER', 
+                         'SHOWMETHERAVE',
+                         'Ночь никогда не заканчивается', 
+                         'APRIL 6'];
             var i = 0;
             setInterval(function(){
                 $('#slogan').fadeOut(function(){
                   $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
                 });
-              }, 2000)
+              }, 3000)
         })();
     </script>
 
