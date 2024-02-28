@@ -10,15 +10,6 @@ $('document').ready(function(){
     $('#scroll-button').on('click',function(){
         $('#index-page').slideDown(2000)
     })
-
-    // HOME PAGE
-  const words = ['NOCTURNALFOREVER', 'SHOWMETHERAVE'];
-  const i = 0;
-  setInterval(function(){
-    $('#slogan').fadeOut(function(){
-      $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-    });
-  }, 2000)
     
     $('#find_out_more_button').click(function(){
         $('#event_description').show(2000);  
