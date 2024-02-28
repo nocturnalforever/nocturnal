@@ -279,7 +279,7 @@ button{
 .home-section{
     min-height: 100vh;
     background-image: url('../Images/glowing_body.gif');
-    background-size: cover;
+/*     background-size: cover; */
     background-position: center;
     position: relative;
     z-index: 1;
