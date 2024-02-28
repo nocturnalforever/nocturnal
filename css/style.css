@@ -753,7 +753,7 @@ button{
     .home-section {
             margin-left: 4em;
             margin-right: 4em;
-            background-image: url('../Images/noc_web_background-MOBILE.png');
+            background-image: url('../Images/glowing_body.gif');
             padding-bottom: 5em;
         }
     
@@ -899,7 +899,7 @@ button{
     .home-section {
         margin-left: 4em;
         margin-right: 4em;
-        background-image: url('../Images/noc_web_background-MOBILE.png');
+        background-image: url('../Images/glowing_body.gif');
         padding-bottom: 5em;
     }
 
@@ -961,7 +961,7 @@ button{
     .home-section{
         margin-left: 4em;
         margin-right: 4em;
-        background-image: url('../Images/noc_web_background-MOBILE.png');
+        background-image: url('../Images/glowing_body.gif');
         padding-bottom: 5em;
     }
 
