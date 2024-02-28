@@ -62,9 +62,9 @@
     <!-- HOME SECTION ENDS -->
     <script type='text/javascript'>
         (function(){
-            const words = ['NOCTURNALFOREVER', 'SHOWMETHERAVE'];
-              const i = 0;
-              setInterval(function(){
+            var words = ['NOCTURNALFOREVER', 'SHOWMETHERAVE'];
+            var i = 0;
+            setInterval(function(){
                 $('#slogan').fadeOut(function(){
                   $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
                 });
