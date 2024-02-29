@@ -796,6 +796,7 @@ button{
 
     .header{
         font-size: 8px;
+        background-color: black;
     }
 
     .header .nav ul li a {
@@ -966,6 +967,10 @@ button{
 
 @media screen and (min-width: 350px) and (max-width: 400px ){
 
+    .header{
+        background-color: black;
+    }
+    
     .dropbtn{
         padding-top: 3px;
     }
@@ -1042,6 +1047,10 @@ button{
 
     .header .nav ul li a{
         font-size: 14px;
+    }
+
+    .header{
+        background-color: black;
     }
 
     .dropbtn{
