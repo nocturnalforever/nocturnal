@@ -116,32 +116,17 @@ $('document').ready(function(){
     })
 
     //Password
-   $("#input-btn").on("click", function(){
+   $("#input-btn").on("click", function () {
 
-    let password = document.getElementById('password').value;
-    let alert = document.getElementById('passwordAlert');
-       
-    if (password == 'SHOWMETHERAVE') {
-        window.open('info.html', '_parent');
-    }else if (password == 'Showmetherave') {
-        window.open('info.html', '_parent');
-    }else if (password == 'showmetherave') {
-        window.open('info.html', '_parent');
-    }else if (password == '1234') {
-        window.open('info.html', '_parent');
-    }else if (password == '12345') {
-        window.open('info.html', '_parent');
-    }else if (password == '0000') {
-        window.open('info.html', '_parent');
-    }else if (password == 'Password') {
-        window.open('info.html', '_parent');
-    }else if (password == 'password') {
-        window.open('info.html', '_parent');
-    } else{
-        alert('You almost had it! Try Again. I need you at Nocturnal to SHOWMETHERAVE!!');
-        alert.hidden = false;
-    }
-   })
+        let password = document.getElementById('password').value;
+        let passwordAlert = document.getElementById('passwordAlert');
+
+        if (password == 'SHOWMETHERAVE'){
+            window.open('info.html', '_parent');
+        } else {
+            passwordAlert.hidden = false;
+        }
+    })
 
    // Set the date we're counting down to
 var countDownDate = new Date("Apr 6, 2024 18:00:00").getTime();
