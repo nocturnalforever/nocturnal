@@ -329,7 +329,7 @@ button{
 
 .index-page{
     background-image: url('../Images/moving_clouds.gif');
-    background-size: cover;
+    background-size: 110%;
 }
 
 @keyframes animatedBackground {
