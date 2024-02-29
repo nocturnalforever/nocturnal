@@ -7,6 +7,23 @@ $('document').ready(function(){
     // })
 /*-------------------------------------------------------Index page-----------------------------------------------------------*/
 
+    /*-----------------------------------------Landing Screen-----------------------------------------*/
+    function homeText() {
+            var words = ['NOCTURNAL FOREVER <br><br>',
+                'SHOWMETHERAVE<br><br>',
+                'APRIL 6<br><br>',
+                'Ночь никогда не заканчивается'];
+            var i = 0;
+            setInterval(function () {
+                $('#slogan').fadeOut(function () {
+                    $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+                });
+            }, 3000)
+        }
+
+    homeText();
+
+
     $('#scroll-button').on('click',function(){
         $('#index-page').slideDown(2000)
     })
