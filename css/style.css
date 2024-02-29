@@ -258,7 +258,7 @@ button{
     color: crimson;
 }
 
-/* Style The Dropdown Button */
+ /* Style The Dropdown Button */
  .dropbtn {
      background-color: transparent;
      color: white;
@@ -315,6 +315,7 @@ button{
 
  /* Change color of dropdown links on hover */
  .dropdown-content a:hover {
+     opacity: 0.7;
      background-color: crimson;
      transition: all 2s ease;
  }
@@ -345,7 +346,7 @@ button{
 .home-section{
     min-height: 100vh;
     background-image: url('../Images/glowing_body.gif');
-/*     background-size: cover; */
+    background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1;
@@ -612,16 +613,23 @@ button{
         sans-serif;
 }
 
+#info-backgound{
+    background-image: url('../Images/Runing_animation.gif');
+    background-position: center;
+    background-size: cover;
+}
+
 .about-article{
     text-align: center;
-    margin-top: 8em;
-    background-color: #020002;
+    margin-top: 4em;
+    /* background-color: #020002; */
 }
 
 .about-article .about-article-div{
     margin-top: 0.5em;
-    background-image: url('../Images/Y2K_img-removebg-preview.png');
+    /* background-image: url('../Images/Runing_animation.gif');
     background-position: center;
+    background-size: cover; */
     padding: 0.5em;
     background-position:center;
     background-size: cover;
@@ -634,7 +642,7 @@ button{
     padding: 5em;
     margin: 3em;
     border-radius: 90em;
-    background-color: black;
+    /* background-color: black; */
     opacity: 60%;
 }
 
@@ -642,8 +650,7 @@ button{
     border: 2px solid black;
 }
 
-.value-section 
-{
+.value-section {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -756,11 +763,6 @@ button{
 }
 
 
-.location-background{
-    background-image: url('../Images/moving_clouds.gif');
-
-}
-
 /* ---------------------------------------------------Footer--------------------------------------------------- */
 
 .footer_block{
@@ -798,11 +800,27 @@ button{
     margin: 20em 0;
 }
 
+.merch-blocks{
+    text-align: center;
+    justify-content: center;
+}
+
+.merch-blocks-section{
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+}
+
+.merch{
+    border: 2px solid white;
+    border-radius: 6em;
+    /* padding:4em */
+}
 
 @media screen and (max-width: 290px){
 
     .home-badge {
-        padding-top: 5px;
+        /* padding-top: 5px; */
         width: 0px;
         height: 0px;
     }
@@ -820,7 +838,6 @@ button{
             margin-left: 4em;
             margin-right: 4em;
             background-image: url('../Images/glowing_body.gif');
-            background-size: cover;
             padding-bottom: 5em;
         }
     
@@ -861,6 +878,10 @@ button{
             text-align: center;
             padding: 0.5em 0;
             color: crimson;
+        }
+
+        .about-article{
+            margin-top: 0em;
         }
 
         .about-block .about-block-container .about-container-content {
@@ -967,7 +988,6 @@ button{
         margin-left: 4em;
         margin-right: 4em;
         background-image: url('../Images/glowing_body.gif');
-        background-size: cover;
         padding-bottom: 5em;
     }
 
@@ -1011,6 +1031,10 @@ button{
         font-size: 12px;
     }
 
+    .about-article {
+        margin-top: 0em;
+    }
+
     .about-block .about-block-container .about-container-content {
         font-size: 11px;
     }
@@ -1030,7 +1054,6 @@ button{
         margin-left: 4em;
         margin-right: 4em;
         background-image: url('../Images/glowing_body.gif');
-        background-size: cover;
         padding-bottom: 5em;
     }
 
@@ -1065,6 +1088,10 @@ button{
         padding: 0.5em 0;
         color: crimson;
         font-size: 12px;
+    }
+
+    .about-article {
+        margin-top: 0em;
     }
 
     .about-block .about-block-container .about-container-content {
