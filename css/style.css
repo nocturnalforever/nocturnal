@@ -97,36 +97,6 @@ button{
     outline: none;
 }
 
-/* --------------------------------PRELOADER--------------------------- */
-/* .preloader{
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    z-index: 1099;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.6s ease;
-}
-
-.preloader.loaded{
-    visibility: hidden;
-    opacity: 0;
-    z-index: -99;
-}
-.preloader .loader{
-    height: 30px;
-    width: 30px;
-    border: 2px solid #ff9800;
-    border-right: 2px solid transparent;
-    border-radius: 50%;
-    animation: ani01 2s linear infinite;
-
-} */
-
 /* ---------------------------------Header----------------------- */
 .header{
     position: fixed;
@@ -329,7 +299,7 @@ button{
 
 .index-page{
     background-image: url('../Images/moving_clouds.gif');
-/*  background-size: cover; */
+    background-size: cover;
 }
 
 @keyframes animatedBackground {
@@ -845,6 +815,7 @@ button{
             margin-right: 4em;
             background-image: url('../Images/glowing_body.gif');
             padding-bottom: 5em;
+            background-size: cover;
         }
     
         .home-section .home-content h5 {
@@ -1003,6 +974,7 @@ button{
         margin-right: 4em;
         background-image: url('../Images/glowing_body.gif');
         padding-bottom: 5em;
+        background-size: cover;
     }
 
     .home-section .home-content h5 {
@@ -1076,6 +1048,7 @@ button{
         margin-right: 4em;
         background-image: url('../Images/glowing_body.gif');
         padding-bottom: 5em;
+        background-size: cover;
     }
 
     .home-section .container .home-content img{
