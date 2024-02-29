@@ -23,7 +23,11 @@ $('document').ready(function(){
 
     homeText();
 
-
+    //Menu buttons
+    $('#info-dropdown').on('click', function(){
+        $('#index-page').slideDown(2000)
+    })
+    
     $('#scroll-button').on('click',function(){
         $('#index-page').slideDown(2000)
     })
