@@ -135,7 +135,7 @@ button{
     width: 100%;
     z-index: 99;
     transition: all 0.5 ease;
-    background-color: black;
+    background-color: transparent;
 }
 
 .header .fixed{
