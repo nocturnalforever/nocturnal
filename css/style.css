@@ -803,6 +803,10 @@ button{
         padding: 2px 0;
     }
 
+    .dropbtn{
+        padding-top: 3px;
+    }
+    
     .dropbtn div {
      background-color: lightgray;
      border-radius: 2em;
@@ -962,6 +966,10 @@ button{
 
 @media screen and (min-width: 350px) and (max-width: 400px ){
 
+    .dropbtn{
+        padding-top: 3px;
+    }
+    
     .dropbtn div {
      background-color: lightgray;
      border-radius: 2em;
@@ -1034,6 +1042,10 @@ button{
 
     .header .nav ul li a{
         font-size: 14px;
+    }
+
+    .dropbtn{
+        padding-top: 3px;
     }
 
     .dropbtn div {
