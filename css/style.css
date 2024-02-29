@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900');
 
+@font-face {
+    font-family: 'NewtonHowardFont-Regular' ;
+    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.eot') format('embedded-opentype');
+    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.svg') format('svg');
+    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.ttf') format('truetype');
+    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.woff') format('woff');
+    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.woff2') format('woff2');
+}
+
 body{
     margin: 0;
     line-height: 1.5;
@@ -666,7 +675,8 @@ button{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Old English Text MT',
+    font-family: 'NewtonHowardFont-Regular',
+        'Old English Text MT',
         'Engravers MT',
         'Times New Roman',
         sans-serif ;
