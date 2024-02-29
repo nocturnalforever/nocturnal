@@ -805,7 +805,7 @@ button{
     }
 
     .dropbtn{
-        padding-top: 3px;
+        padding-top: 1em;
     }
     
     .dropbtn div {
@@ -968,7 +968,7 @@ button{
 @media screen and (min-width: 350px) and (max-width: 400px ){
     
     .dropbtn{
-        padding-top: 3px;
+        padding-top: 1em;
     }
     
     .dropbtn div {
@@ -1046,7 +1046,7 @@ button{
     }
 
     .dropbtn{
-        padding-top: 3px;
+        padding-top: 1em;
     }
 
     .dropbtn div {
