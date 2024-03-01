@@ -9,6 +9,15 @@
     src: url('../Font/newton-howard-fonts/NewtonHowardFont-Regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'CelticGaramondthe2nd';
+    src: url('../Font/celtic_garmond/CelticGaramondthe2nd.eot') format('embedded-opentype');
+    src: url('../Font/celtic_garmond/CelticGaramondthe2nd.svg') format('svg');
+    src: url('../Font/celtic_garmond/CelticGaramondthe2nd.ttf') format('truetype');
+    src: url('../Font/celtic_garmond/CelticGaramondthe2nd.woff') format('woff');
+    src: url('../Font/celtic_garmond/CelticGaramondthe2nd.woff2') format('woff2');
+}
+
 body{
     margin: 0;
     line-height: 1.5;
@@ -17,7 +26,11 @@ body{
 body,
 input,textarea,
 button{
-    font-family: 'Engravers MT', 'Times New Roman', Arial, sans-serif ;
+    font-family: 'CelticGaramondthe2nd',
+        'Engravers MT', 
+        'Times Ner Roman', 
+        Arial, 
+        sans-serif ;
     font-weight: 400;
 }
 
@@ -711,8 +724,11 @@ button{
 }
 
 .value-section .value-container p{
-    font-family: sans-serif;
-    text-transform: lowercase;
+    font-family: 'CelticGaramondthe2nd',
+            'Engravers MT',
+            'Times New Roman',
+            sans-serif,
+            monospace;
 }
 
 .shop-button:hover{
