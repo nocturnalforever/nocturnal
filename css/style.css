@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'NewtonHowardFont-Regular' ;
-    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.eot') format('embedded-opentype');
-    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.svg') format('svg');
-    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.ttf') format('truetype');
-    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.woff') format('woff');
-    src: url('../FONTS/newton-howard-fonts/NewtonHowardFont-Regular.woff2') format('woff2');
+    src: url('../Font/newton-howard-fonts/NewtonHowardFont-Regular.eot') format('embedded-opentype');
+    src: url('../Font/newton-howard-fonts/NewtonHowardFont-Regular.svg') format('svg');
+    src: url('../Font/newton-howard-fonts/NewtonHowardFont-Regular.ttf') format('truetype');
+    src: url('../Font/newton-howard-fonts/NewtonHowardFont-Regular.woff') format('woff');
+    src: url('../Font/newton-howard-fonts/NewtonHowardFont-Regular.woff2') format('woff2');
 }
 
 body{
