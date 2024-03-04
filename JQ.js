@@ -122,7 +122,7 @@ $('document').ready(function(){
         let passwordAlert = document.getElementById('passwordAlert');
 
         if (password == 'SHOWMETHERAVE'){
-            window.open('info.html', '_parent');
+            window.open('./info', '_parent');
         } else {
             passwordAlert.hidden = false;
         }
