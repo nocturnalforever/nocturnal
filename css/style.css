@@ -300,7 +300,8 @@ button{
      padding: 12px 16px;
      text-decoration: none;
      display: block;
-     font-family: 'Engravers MT',
+     font-family:'NewtonHowardFont-Regular',
+         'Engravers MT',
          'Times New Roman',
          sans-serif;
      border-radius: 2em;
