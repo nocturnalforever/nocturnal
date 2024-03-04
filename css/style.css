@@ -235,7 +235,8 @@ button{
     padding: 25px 0;
     display: block;
     transition: all 0.5s ease;
-    font-family: 'Old English Text MT', 
+    font-family: 'NewtonHowardFont-Regular',
+    'Old English Text MT', 
     'Engravers MT', 
     'Times New Roman', 
     sans-serif;
