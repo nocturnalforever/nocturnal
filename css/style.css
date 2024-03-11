@@ -815,16 +815,17 @@ button{
     /* padding:4em */
 }
 
-.snake-button{
+.web-button{
     padding: 0.4em 1em;
-    background-color: white;
-    border: 2px solid white;
+    background-color: black;
+    border: 2px solid darkred;
+    border-radius: 5em;
     margin-top: 2em;
 }
 
-.snake-button:hover{
+.web-button:hover{
     cursor: pointer;
-    background-color: lightgray;
+    background-color: darkred;
 }
 
 @media screen and (max-width: 290px){
