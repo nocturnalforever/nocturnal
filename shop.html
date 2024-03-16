@@ -48,10 +48,9 @@
    <!-- SHOP -->
     <div>
         <div class="shop-div">
-            <h3 style='font-family: "CelticGaramondthe2nd"'>Welcome to the Dark Web, Nocturnalforever's one stop shop for anything Nocturnal.
-            Shop all the best gear, gadgets and merch for life after dark.</h1><br>
+            <h3 style='font-family: "CelticGaramondthe2nd"' id="Typetext"></h1><br>
             <a href="https://nocturnalforever-darkweb.company.site/" target='_blank'>
-                <button class="web-button">THE DARK WEB</button>
+                <button class="web-button" id="DW-btn"></button>
             </a>
         </div>
     </div>
@@ -76,4 +75,25 @@
     <script src="jQuery/jquery-3.7.1.js" type="text/javascript"></script>
     <script src="JQ.js" type="text/javascript"></script>
     <script src="main.js" type="text/javascript"></script>
+    <script>
+    var i = 0;
+    var txt1 = "Want To see what we have on The Dark Web?....";
+    var speed = 150; /* The speed/duration of the effect in milliseconds */
+
+    function typeWriter() {
+        if (i < txt1.length) {
+            document.getElementById("Typetext").innerHTML += txt1.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+
+    }
+    typeWriter();
+    function button() {
+        let btn = document.getElementById("DW-btn");
+        btn.hidden = false;
+    }
+
+    setTimeout(button, 10000);
+</script>
 </html>
