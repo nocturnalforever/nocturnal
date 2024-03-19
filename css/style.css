@@ -608,9 +608,9 @@ button{
 }
 
 #info-backgound{
-    background-image: url('../Images/Runing_animation.gif');
+/*     background-image: url('../Images/Runing_animation.gif');
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .about-article{
@@ -620,24 +620,21 @@ button{
 }
 
 .about-article .about-article-div{
-    margin-top: 0.5em;
-    /* background-image: url('../Images/Runing_animation.gif');
-    background-position: center;
-    background-size: cover; */
-    padding: 0.5em;
+    font-family: 'CelticGaramondthe2nd', 
+        'Engravers MT', 
+        'Times New Roman', 
+        'Arial', sans-serif;
     background-position:center;
     background-size: cover;
 }
 
-.about-article .about-article-div .about-article-text{
-    font-family: 'Engravers MT', 'Times New Roman' , 'Arial', sans-serif;
-    color: white;
+.about-article-text{
+   font-family: 'CelticGaramondthe2nd','Engravers MT', 'Times New Roman' , 'Arial', sans-serif;
+    color: gray;
     font-weight: bold;
-    padding: 5em;
-    margin: 3em;
+    margin: 3em 0;
     border-radius: 90em;
-    /* background-color: black; */
-    opacity: 60%;
+    text-align:center;
 }
 
 .about-article .about-article-div .about-article-text .about-article-text-underline{
