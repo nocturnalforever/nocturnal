@@ -600,7 +600,7 @@ button{
     animation: ani01 10s linear infinite;
     text-align: center;
     color: black;
-    border:2px solid green;
+    border:2px solid #00BE00;
     font-family: 'Engravers MT',
         'Times New Roman',
         'Arial',
