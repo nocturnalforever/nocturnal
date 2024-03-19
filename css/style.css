@@ -620,7 +620,7 @@ button{
 }
 
 .about-article .about-article-div{
-    font-family: 'CelticGaramondthe2nd', 
+   font-family: 'CelticGaramondthe2nd', 
         'Engravers MT', 
         'Times New Roman', 
         'Arial', sans-serif;
@@ -629,7 +629,7 @@ button{
 }
 
 .about-article-text{
-   font-family: 'CelticGaramondthe2nd','Engravers MT', 'Times New Roman' , 'Arial', sans-serif;
+    font-family: 'CelticGaramondthe2nd','Engravers MT', 'Times New Roman' , 'Arial', sans-serif;
     color: gray;
     font-weight: bold;
     margin: 3em 0;
