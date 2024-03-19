@@ -910,7 +910,7 @@ button{
         }
 
         .about-article{
-            margin-top: 0em;
+            margin-top: 1em;
         }
 
         .about-block .about-block-container .about-container-content {
@@ -976,7 +976,7 @@ button{
         }
 
         .about-article{
-            margin-top: 15em;
+            margin-top: 0em;
         }
 
         .about-article .about-article-div .about-article-text {
@@ -1074,7 +1074,7 @@ button{
     }
 
     .about-article {
-        margin-top: 0em;
+        margin-top: 2em;
     }
 
     .about-block .about-block-container .about-container-content {
@@ -1145,7 +1145,7 @@ button{
     }
 
     .about-article {
-        margin-top: 0em;
+        margin-top: 2em;
     }
 
     .about-block .about-block-container .about-container-content {
