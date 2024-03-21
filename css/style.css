@@ -127,7 +127,7 @@ button{
     width: 100%;
     z-index: 99;
     transition: all 0.5 ease;
-    background-color: transparent;
+    background-color: black;
 }
 
 .header .fixed{
@@ -339,7 +339,7 @@ button{
 
 .home-section{
     min-height: 100vh;
-    background-image: url('../Images/glowing_body.gif');
+    background-image: url('../Images/rotating_guy.gif');
     background-position: center;
     position: relative;
     z-index: 1;
@@ -865,7 +865,7 @@ button{
     .home-section {
             margin-left: 4em;
             margin-right: 4em;
-            background-image: url('../Images/glowing_body.gif');
+            background-image: url('../Images/rotating_guy.gif');
             padding-bottom: 5em;
             background-size: cover;
         }
@@ -1028,7 +1028,7 @@ button{
     .home-section {
         margin-left: 4em;
         margin-right: 4em;
-        background-image: url('../Images/glowing_body.gif');
+        background-image: url('../Images/rotating_guy.gif');
         padding-bottom: 5em;
         background-size: cover;
     }
@@ -1106,7 +1106,7 @@ button{
     .home-section{
         margin-left: 4em;
         margin-right: 4em;
-        background-image: url('../Images/glowing_body.gif');
+        background-image: url('../Images/rotating_guy.gif');
         padding-bottom: 5em;
         background-size: cover;
     }
