@@ -419,10 +419,10 @@ button{
     height: 200px;
 }
 
-.home-section .scroll-down{
+.scroll-down{
     position: absolute;
     left: 50%;
-    bottom: 30px;
+/*     bottom: 30px; */
     height: 30px;
     width: 30px;
     margin-left: -15px;
@@ -443,7 +443,7 @@ button{
     }
 }
 
-.home-section .scroll-down img{
+.scroll-down img{
     width: 25px;
     display: block;
     margin: 2px auto;
