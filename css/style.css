@@ -339,7 +339,7 @@ button{
 
 .home-section{
     min-height: 100vh;
-    background-image: url('../Images/glowing_body.gif');
+    background-image: url('../Images/eye-looking-around.gif');
     background-position: center;
     position: relative;
     z-index: 1;
@@ -891,7 +891,7 @@ button{
     .home-section {
             margin-left: 4em;
             margin-right: 4em;
-            background-image: url('../Images/glowing_body.gif');
+            background-image: url('../Images/eye-looking-around.gif');
             padding-bottom: 5em;
             background-size: cover;
         }
@@ -1058,7 +1058,7 @@ button{
     .home-section {
         margin-left: 4em;
         margin-right: 4em;
-        background-image: url('../Images/glowing_body.gif');
+        background-image: url('../Images/eye-looking-around.gif');
         padding-bottom: 5em;
         background-size: cover;
     }
@@ -1140,7 +1140,7 @@ button{
     .home-section{
         margin-left: 4em;
         margin-right: 4em;
-        background-image: url('../Images/glowing_body.gif');
+        background-image: url('../Images/eye-looking-around.gif');
         padding-bottom: 5em;
         background-size: cover;
     }
