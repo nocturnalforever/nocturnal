@@ -340,6 +340,7 @@ button{
 .home-section{
     min-height: 100vh;
     background-image: url('../Images/eye-looking-around.gif');
+    background-size:cover;
     background-position: center;
     position: relative;
     z-index: 1;
