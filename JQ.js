@@ -9,10 +9,14 @@ $('document').ready(function(){
 
     /*-----------------------------------------Landing Screen-----------------------------------------*/
     function homeText() {
-            var words = ['NOCTURNAL FOREVER <br><br>',
-                'SHOWMETHERAVE<br><br>',
-                'APRIL 6<br><br>',
-                'Ночь никогда не заканчивается'];
+            var words = ['RUMOURS LOUNGE<br><br>',
+            'STRYDOM PARK<br><br>',
+            'RANDBURG<br><br>',
+            'APRIL 6<br><br>',
+            'NOCTURNAL FOREVER <br><br>',
+            'SHOWMETHERAVE<br><br>',
+            ,
+            'Ночь никогда не заканчивается'];
             var i = 0;
             setInterval(function () {
                 $('#slogan').fadeOut(function () {
