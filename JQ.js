@@ -157,7 +157,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "RAVE TAKING PLACE NOW!!!!";
+    document.getElementById("demo").innerHTML = "NOCTURNALFOREVER";
   }
 }, 1000);
 })
