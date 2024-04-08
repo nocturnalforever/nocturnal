@@ -9,12 +9,9 @@ $('document').ready(function(){
 
     /*-----------------------------------------Landing Screen-----------------------------------------*/
     function homeText() {
-            var words = ['RUMOURS LOUNGE<br><br>',
-            'STRYDOM PARK<br><br>',
-            'RANDBURG<br><br>',
-            'APRIL 6<br><br>',
+            var words = [
             'NOCTURNAL FOREVER <br><br>',
-            'SHOWMETHERAVE<br><br>',
+            'FREE NOCTEM<br><br>',
             ,
             'Ночь никогда не заканчивается'];
             var i = 0;
