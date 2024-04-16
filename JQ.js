@@ -10,7 +10,7 @@ $('document').ready(function(){
     /*-----------------------------------------Landing Screen-----------------------------------------*/
     function homeText() {
             var words = [
-            'NOCTURNALFOREVER <br><br>',
+            'NOCTURNAL FOREVER <br><br>',
             'NOCTEM<br><br>',
             ,
             'Ночь никогда не заканчивается'];
