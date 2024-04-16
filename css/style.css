@@ -658,6 +658,7 @@ button{
     margin: 3em 0;
     border-radius: 90em;
     text-align:center;
+    padding: 0em 2em;
 }
 
 .about-article .about-article-div .about-article-text .about-article-text-underline{
@@ -1010,7 +1011,7 @@ button{
             font-family: 'Engravers MT', 'Times New Roman', 'Arial', sans-serif;
             color: white;
             font-weight: bold;
-            padding: 0em;
+            padding: 0em 2em;
             margin: 3em;
             border-radius: 10em;
             background-color: black;
